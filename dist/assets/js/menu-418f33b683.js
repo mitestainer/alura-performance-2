@@ -1,0 +1,1 @@
+var titulo=document.querySelector(".header-menu-titulo"),menu=document.querySelector(".header-menu");titulo&&(titulo.onclick=function(){menu.hasAttribute("data-ativo")?menu.removeAttribute("data-ativo"):menu.setAttribute("data-ativo","")});
